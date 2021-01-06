@@ -20,15 +20,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="RisingBlog">
-<meta property="og:url" content="http://example.com/tags/hexo/index.html">
+  <meta name="description" content="vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题vim常用的相关配置 安装vim，命令为：  1sudo apt-get install vim">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于vim的相关问题">
+<meta property="og:url" content="http://example.com/2021/01/06/%E5%85%B3%E4%BA%8Evim%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="RisingBlog">
+<meta property="og:description" content="vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题vim常用的相关配置 安装vim，命令为：  1sudo apt-get install vim">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-01-06T02:18:35.000Z">
+<meta property="article:modified_time" content="2021-01-06T02:35:39.999Z">
 <meta property="article:author" content="达少Rising">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/tags/hexo/">
+<link rel="canonical" href="http://example.com/2021/01/06/%E5%85%B3%E4%BA%8Evim%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/">
 
 
 <script id="page-configurations">
@@ -36,12 +40,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Tag: hexo | RisingBlog</title>
+  <title>关于vim的相关问题 | RisingBlog</title>
   
 
 
@@ -145,51 +149,86 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">hexo
-          <small>Tag</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/06/%E5%85%B3%E4%BA%8Evim%E7%9A%84%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="达少Rising">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RisingBlog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          关于vim的相关问题
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-01-06 10:18:35 / Modified: 10:35:39" itemprop="dateCreated datePublished" datetime="2021-01-06T10:18:35+08:00">2021-01-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+        <h1 id="vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题"><a href="#vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题" class="headerlink" title="vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题"></a>vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题</h1><h2 id="vim常用的相关配置"><a href="#vim常用的相关配置" class="headerlink" title="vim常用的相关配置"></a>vim常用的相关配置</h2><ul>
+<li>安装vim，命令为：  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vim</span><br></pre></td></tr></table></figure>
+<a id="more"></a></li>
+<li>更改vim的配置文件etc/vim，命令为：  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;vim</span><br><span class="line">sudo gedit vimrc</span><br></pre></td></tr></table></figure></li>
+<li>在vimrc文件的最后插入下列内容  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">systax on</span><br><span class="line">set tabstop&#x3D;4</span><br><span class="line">set softtabstop&#x3D;4</span><br><span class="line">set shiftwidth&#x3D;4</span><br><span class="line">set autoindent</span><br><span class="line">set cindent</span><br><span class="line">set nu</span><br></pre></td></tr></table></figure>
+  在这里解析一下上面内容的意思  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">syntax on            &#x2F;&#x2F;设置语法高亮</span><br><span class="line">set tabstop&#x3D;4        &#x2F;&#x2F;设置制表符宽度为4</span><br><span class="line">set softtabstop&#x3D;4    &#x2F;&#x2F;设置软制表符宽度为4</span><br><span class="line">set shiftwidth&#x3D;4    &#x2F;&#x2F;设置缩进的空格数为4</span><br><span class="line">set autoindent      &#x2F;&#x2F;设置自动缩进</span><br><span class="line">set cindent          &#x2F;&#x2F;设置使用 C&#x2F;C++ 语言的自动缩进方式</span><br><span class="line">set nu              &#x2F;&#x2F;在左侧显示文本的行号</span><br></pre></td></tr></table></figure></li>
+<li>保存vimrc文件，并退出，重启终端配置就成功了</li>
+</ul>
+<h2 id="Ubuntu系统vim中的方向键输入错误"><a href="#Ubuntu系统vim中的方向键输入错误" class="headerlink" title="Ubuntu系统vim中的方向键输入错误"></a>Ubuntu系统vim中的方向键输入错误</h2><pre><code>最近因为学习原因安装了Ubuntu的虚拟，但是在vim中发现按下方向键时只是输入ABCD等字母，所以在网上查找了一些方法，其中最简单的就是下面的命令：
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp &#x2F;etc&#x2F;vim&#x2F;vimrc  ~&#x2F;.vimrc</span><br></pre></td></tr></table></figure></code></pre>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-12-30T13:01:12+08:00"
-              content="2020-12-30">
-          12-30
-        </time>
-      </div>
+      <footer class="post-footer">
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/12/30/%E5%8A%A8%E6%89%8B%E6%90%AD%E5%BB%BAhexo%E5%8D%9A%E5%AE%A2/" itemprop="url">
-            <span itemprop="name">动手搭建hexo博客</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2021/01/05/hello-world/" rel="prev" title="Hello World">
+      <i class="fa fa-chevron-left"></i> Hello World
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
   </article>
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
@@ -242,6 +281,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#vim%E9%85%8D%E7%BD%AE%E5%92%8C%E8%A7%A3%E5%86%B3Ubuntu%E5%AE%89%E8%A3%85%E5%90%8E%E5%9C%A8vim%E4%B8%AD%E6%96%B9%E5%90%91%E9%94%AE%E8%BE%93%E5%85%A5%E9%94%99%E8%AF%AF%E7%AD%89%E9%97%AE%E9%A2%98"><span class="nav-number">1.</span> <span class="nav-text">vim配置和解决Ubuntu安装后在vim中方向键输入错误等问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#vim%E5%B8%B8%E7%94%A8%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE"><span class="nav-number">1.1.</span> <span class="nav-text">vim常用的相关配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu%E7%B3%BB%E7%BB%9Fvim%E4%B8%AD%E7%9A%84%E6%96%B9%E5%90%91%E9%94%AE%E8%BE%93%E5%85%A5%E9%94%99%E8%AF%AF"><span class="nav-number">1.2.</span> <span class="nav-text">Ubuntu系统vim中的方向键输入错误</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
